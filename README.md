@@ -1,6 +1,6 @@
-# 💬 Nikheel's Incentiv Assignment 
+# 💬 Nikheel's Inventic Assignment 
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nikheel-inventive.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nikheel-inventic.streamlit.app/)
 
 ## Assignment
 
@@ -17,11 +17,11 @@ Write a Python script that analyzes a given book passage (provided below) and pr
 
 ## Solution:
 
-- The app uses Gemini AI for generating the summary and finding the author of the book of which the passage belongs to.
-- The app also uses NLTK for word count and sentiment analysis of the passage or the book.
-- The frontend is made with Streamlit and is deployed in its cloud.
+- The app uses Gemini AI to generate the summary and find the book's author to which the passage belongs.
+- The app also uses NLTK to analyze the word count and sentiment of the passage or the book.
+- The front end is made with Streamlit and is deployed in its cloud.
 
-### How to run it on your own machine
+### How to run it on your machine
 
 1. Install the requirements
 
