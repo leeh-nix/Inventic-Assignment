@@ -1,11 +1,7 @@
-from nltk import download
 from nltk.tokenize import word_tokenize
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 from utils.gemini import geminiai
-
-download("punkt")  # tokenizer model
-download("vader_lexicon")  # Valence Aware Dictionary and sEntiment Reasoner
 
 
 # Function for word count

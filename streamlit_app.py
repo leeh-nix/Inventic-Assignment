@@ -1,7 +1,10 @@
 import streamlit as st
-
+import nltk
 from utils.gemini import initialize_gemini
 from utils.utils import generate_response
+
+nltk.download("punkt_tab")  # tokenizer model
+nltk.download("vader_lexicon")  # Valence Aware Dictionary and sEntiment Reasoner
 
 
 # Show title and description.
