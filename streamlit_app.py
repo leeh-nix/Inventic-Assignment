@@ -31,8 +31,6 @@ else:
             st.markdown(message["content"])
 
     if prompt := st.chat_input("What is up?"):
-        print(type(prompt))
-        print(prompt)
         # Store and display the current prompt of user.
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):

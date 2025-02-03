@@ -10,7 +10,7 @@ download("vader_lexicon")  # Valence Aware Dictionary and sEntiment Reasoner
 
 # Function for word count
 def word_count(passage):
-    words = word_tokenize(passage)
+    words = word_tokenize(passage, preserve_line=False)
     words = [word for word in words if word.isalpha()]
     return len(words)
 
