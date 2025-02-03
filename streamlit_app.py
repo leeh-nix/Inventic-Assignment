@@ -21,7 +21,7 @@ if not gemini_api_key:
     st.info("Please add your Gemini API key to continue.", icon="🗝️")
 else:
 
-    client = initialize_gemini(gemini_api_key)
+    initialize_gemini(gemini_api_key)
 
     # Create a session state variable to store the chat messages. This ensures that the
     # messages persist across reruns.
